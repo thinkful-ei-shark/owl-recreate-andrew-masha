@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders as expected 1`] = `
+<div
+  className="stage"
+>
+  <div
+    className="stage-panel"
+  >
+    <div
+      className="stage-name"
+    />
+    <div
+      className="stage-avatar"
+    >
+      <img
+        alt="avatar"
+      />
+    </div>
+  </div>
+  <div
+    className="stage-panel"
+  >
+    <div
+      className="stage-name"
+    />
+    <div
+      className="stage-avatar"
+    >
+      <img
+        alt="avatar"
+      />
+    </div>
+  </div>
+</div>
+`;
