@@ -5,7 +5,120 @@ exports[`renders as expected 1`] = `
   className="Chat-log"
 >
   <li
-    className="message"
+    className="chat-message"
+  >
+    <img
+      alt="avatar"
+      src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+    />
+    ,
+    <div
+      className="byline"
+    >
+      <span
+        className="participant-name"
+      >
+        Axe Kubicka
+      </span>
+      <span
+        className="eventTime"
+      >
+        Wed Jan 30 2019
+      </span>
+    </div>
+    ,
+    <div
+      className="message-text"
+    >
+      Hello world
+    </div>
+  </li>
+  <li
+    className="thumbs-up"
+  >
+    <span
+      className="participant-name"
+    >
+      Caty Flucker
+    </span>
+    <span
+      className="event-text"
+    />
+  </li>
+  <li
+    className="thumbs-down"
+  >
+    <span
+      className="participant-name"
+    >
+      Frank Runciman
+    </span>
+    <span
+      className="event-text"
+    />
+  </li>
+  <li
+    className="raise-hand"
+  >
+    <span
+      className="participant-name"
+    >
+      Koren Templeton
+    </span>
+    <span
+      className="event-text"
+    />
+  </li>
+  <li
+    className="clap"
+  >
+    <span
+      className="participant-name"
+    >
+      Koren Templeton
+    </span>
+    <span
+      className="event-text"
+    />
+  </li>
+  <li
+    className="join"
+  >
+    <span
+      className="participant-name"
+    >
+      Koren Templeton
+    </span>
+    <span
+      className="event-text"
+    />
+  </li>
+  <li
+    className="leave"
+  >
+    <span
+      className="participant-name"
+    >
+      Ashla Attwool
+    </span>
+    <span
+      className="event-text"
+    />
+  </li>
+  <li
+    className="join-stage"
+  >
+    <span
+      className="participant-name"
+    >
+      Axe Kubicka
+    </span>
+    <span
+      className="event-text"
+    />
+  </li>
+  <li
+    className="leave-stage"
   >
     <span
       className="participant-name"
