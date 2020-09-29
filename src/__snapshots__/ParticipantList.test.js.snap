@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<ul
+  className="Participant-list"
+>
+  <li
+    className="Participant"
+  >
+    <div
+      className="portait"
+    >
+      <img
+        alt="avatar"
+      />
+    </div>
+    <div
+      className="participant-meta"
+    >
+      <div
+        className="participant-name"
+      />
+      <div
+        className="Participant-byline"
+      >
+        <span
+          className="dot not-in-session"
+        />
+        <span
+          className="stage-status"
+        >
+          Off Stage
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    className="Participant"
+  >
+    <div
+      className="portait"
+    >
+      <img
+        alt="avatar"
+      />
+    </div>
+    <div
+      className="participant-meta"
+    >
+      <div
+        className="participant-name"
+      />
+      <div
+        className="Participant-byline"
+      >
+        <span
+          className="dot not-in-session"
+        />
+        <span
+          className="stage-status"
+        >
+          Off Stage
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    className="Participant"
+  >
+    <div
+      className="portait"
+    >
+      <img
+        alt="avatar"
+      />
+    </div>
+    <div
+      className="participant-meta"
+    >
+      <div
+        className="participant-name"
+      />
+      <div
+        className="Participant-byline"
+      >
+        <span
+          className="dot not-in-session"
+        />
+        <span
+          className="stage-status"
+        >
+          Off Stage
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    className="Participant"
+  >
+    <div
+      className="portait"
+    >
+      <img
+        alt="avatar"
+      />
+    </div>
+    <div
+      className="participant-meta"
+    >
+      <div
+        className="participant-name"
+      />
+      <div
+        className="Participant-byline"
+      >
+        <span
+          className="dot not-in-session"
+        />
+        <span
+          className="stage-status"
+        >
+          Off Stage
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    className="Participant"
+  >
+    <div
+      className="portait"
+    >
+      <img
+        alt="avatar"
+      />
+    </div>
+    <div
+      className="participant-meta"
+    >
+      <div
+        className="participant-name"
+      />
+      <div
+        className="Participant-byline"
+      >
+        <span
+          className="dot not-in-session"
+        />
+        <span
+          className="stage-status"
+        >
+          Off Stage
+        </span>
+      </div>
+    </div>
+  </li>
+</ul>
+`;

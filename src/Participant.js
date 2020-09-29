@@ -2,7 +2,7 @@ import React from 'react';
 
 function Participant(props) {
   return (
-    <div className="Participant" key={props.id}>
+    <li className="Participant">
       <div className="portait">
         <img src={props.avatar} alt="avatar" />
       </div>
@@ -19,7 +19,7 @@ function Participant(props) {
           </span>
         </div>
       </div>
-    </div>
+    </li>
   )
 }
 
