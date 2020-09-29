@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
+import renderer from 'react-test-renderer';
 
 import ChatEvent from './ChatEvent.js'
 
@@ -32,3 +33,11 @@ it('renders without crashing', () => {
 
   ReactDOM.unmountComponentAtNode(div);
 })
+
+it('renders the UI as expected', () => {
+  const tree = renderer
+    .create(<ChatEvent
+      event={testProps.event} participant={testProps.participant} />)
+    .toJSON();
+    expect(tree).toMatchSnapshot();
+});

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders as expected 1`] = `
+<ul
+  className="Chat-log"
+>
+  <li
+    className="message"
+  >
+    <span
+      className="participant-name"
+    >
+      Axe Kubicka
+    </span>
+    <span
+      className="event-text"
+    />
+  </li>
+</ul>
+`;

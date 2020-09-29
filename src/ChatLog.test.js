@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import renderer from 'react-test-renderer';
 
 import ChatLog from './ChatLog.js';
 
@@ -104,4 +105,11 @@ it('renders without crashing', () => {
   )
 
   ReactDOM.unmountComponentAtNode(div);
+})
+
+it('renders as expected', () => {
+  const tree = renderer
+    .create(<ChatLog events={testProps.events} participants={testProps.participants} />)
+    .toJSON();
+  expect(tree).toMatchSnapshot();
 })
